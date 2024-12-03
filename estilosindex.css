@@ -1,0 +1,11 @@
+body{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+.imagenesRecomendadas{
+    display: inline-block;
+    width: 48%;
+    border: 10px solid color-mix(in srgb, red 10%, blue 10%);
+    margin-left: 1px;
+}
