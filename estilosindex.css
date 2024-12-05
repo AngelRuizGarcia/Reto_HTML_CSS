@@ -1,11 +1,29 @@
+.headerCentrado{
+    display:flex;
+    text-align: center;
+}
+
+.h1top{
+    padding-top: 25px;
+}
+
 body{
     padding-left: 50px;
     padding-top: 20px;
     padding-right: 50px;
+    background-color: rgb(211, 252, 203);
 }
 .imagenesRecomendadas{
+    text-align: center;
     display: inline-block;
-    width: 48%;
-    border: 10px solid color-mix(in srgb, red 10%, blue 10%);
-    margin-left: 1px;
+}
+
+.navigation{
+    display:block;
+    text-align:center;
+}
+
+.redes{
+    display:block;
+    text-align:center;
 }
