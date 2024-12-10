@@ -7,15 +7,20 @@
     padding-top: 25px;
 }
 
+.imagen:hover{
+    transform: scale(1.0);
+}
+
 body{
     padding-left: 50px;
     padding-top: 20px;
     padding-right: 50px;
     background-color: rgb(211, 252, 203);
 }
+
 .imagenesRecomendadas{
     text-align: center;
-    display: inline-block;
+    display: inline-flex;
 }
 
 .navigation{
@@ -26,4 +31,29 @@ body{
 .redes{
     display:block;
     text-align:center;
+}
+
+.botonesCarrito{
+    background-color: rgb(211, 252, 203);
+    color: black;
+    border: 2px solid;
+}
+
+.botonesCarrito:hover{
+    border: 2px solid;
+    animation: animacionBotones;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacionBotones {
+    0%{
+        border-style: solid;
+    }
+    50%{
+        border-style: dashed;
+    }
+    100%{
+        border-style: solid;
+    }
 }
