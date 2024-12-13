@@ -1,6 +1,12 @@
-.headerCentrado{
-    display:flex;
+header{
+    width: 100%;
+    display:inline-flex;
     text-align: center;
+}
+.enlacesHeader{
+    width: 5%;
+    display:block;
+    text-align: right;
 }
 
 .h1top{
@@ -8,10 +14,13 @@
 }
 
 .imagen:hover{
-    transform: scale(1.0);
+    animation: animacionZoom;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
 }
 
 body{
+    width: 90%;
     padding-left: 50px;
     padding-top: 20px;
     padding-right: 50px;
@@ -55,5 +64,14 @@ body{
     }
     100%{
         border-style: solid;
+    }
+}
+
+@keyframes animacionZoom {
+    0%{
+        transform: scale(1.0);
+    }
+    100%{
+        transform: scale(1.5);
     }
 }
