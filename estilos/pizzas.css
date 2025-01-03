@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+
+    }
+    
+body {
+    background-color: darkgray;
+}
+h2 {
+    font-style: oblique;
+}
+.promopizzas{
+    width: 200px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.promo{
+    display: inline-block; 
+    width: 300px; 
+    text-align: center; 
+    border: 1px solid #ccc; 
+    padding: 10px; box-sizing: border-box;
+}
