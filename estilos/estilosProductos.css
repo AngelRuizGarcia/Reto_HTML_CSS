@@ -1,12 +1,14 @@
 h1 {
     text-align: center;
     margin-left: 770px;
-    }
+}
     
 body {
     background-color: darkgray;
 }
 h2 {
+    background-color: #333;
+    color: white;
     font-style: oblique;
 }
 .promoproducto{
@@ -101,6 +103,8 @@ h2 {
 }
 
 header  {
+    background-color: #333;
+    color: white;
     display: flex;
     align-items: center;
 }
@@ -124,6 +128,8 @@ header  {
 }
 
 h3 {
+    background-color: #333;
+    color: white;
     text-align: center;
 }
 .testimonios {
