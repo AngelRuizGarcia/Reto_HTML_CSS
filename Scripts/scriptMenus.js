@@ -12,3 +12,8 @@ function openMenu(menuId) {
     alert("Pizza añadida al carrito!");
     closeMenu();
   }
+
+
+
+
+

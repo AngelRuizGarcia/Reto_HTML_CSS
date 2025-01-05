@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>PIZZAS - DDANIIS BAKERY</title>
+        <link rel="icon" href="imagenes/logo.png" type="image/x-icon">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="estilos/pizzas.css">
@@ -24,7 +25,7 @@
                     <p>8,79€</p>
                     <div class="mini-menu" id="menu1">
                       <h4>Ingredientes:</h4>
-                      <p>-Tomate</p>
+                      <p>- Tomate</p>
                       <p>- Mozzarella</p>
                       <p>- Albahaca</p>
                       <button onclick="comprar()">Comprar</button>
@@ -37,7 +38,10 @@
                     <p>25,99€</p>
                     <div class="mini-menu" id="menu2">
                       <h4>Ingredientes:</h4>
-                      <p>Queso, Pepperoni, Champiñones, Aceitunas</p>
+                      <p>- Queso</p>
+                      <p>- Pepperoni</p>
+                      <p>- Champiñones</p>
+                      <p>- Aceitunas</p>
                       <button onclick="comprar()">Comprar</button>
                     </div>
                   </section>
@@ -48,7 +52,9 @@
                     <p>12,49€</p>
                     <div class="mini-menu" id="menu3">
                       <h4>Ingredientes:</h4>
-                      <p>Pepperoni, Pimientos, Helado de Nata</p>
+                      <p>- Pepperoni</p>
+                      <p>- Pimientos</p>
+                      <p>- Helado de Nata</p>
                       <button onclick="comprar()">Comprar</button>
                     </div>
                   </section>
@@ -59,19 +65,39 @@
                 <hr>
                 <h2> NUEVAS PIZZAS:</h2>
                 <section class="nuevas">
-                    <img class="nuevaspizzas" src="imagenes/pizzaPulpo.jpg" alt="">
+                    <img class="nuevaspizzas" src="imagenes/pizzaPulpo.jpg" alt="" onclick="openMenu(4)">
                     <p>Nuestro ultimo invento, la pizza con pulpo</p>
                     <p>11,99€</p>
+                    <div class="mini-menu" id="menu4">
+                    <h4>Ingredientes:</h4>
+                      <p>- Puplo</p>
+                      <p>- Tomate</p>
+                      <p>- Queso</p>
+                      <button onclick="comprar()">Comprar</button>
+                    </div>
                 </section>
                 <section class="nuevas">
-                    <img class="nuevaspizzas" src="imagenes/PizzaEspaguetis.jpg" alt="">
+                    <img class="nuevaspizzas" src="imagenes/PizzaEspaguetis.jpg" alt="" onclick="openMenu(5)">
                     <p>Pizza de espaguetis, para los mas italianos</p>
                     <p>12,99€</p>
+                    <div class="mini-menu" id="menu5">
+                    <h4>Ingredientes:</h4>
+                      <p>- Espaguetis</p>
+                      <p>- Pepino</p>
+                      <p>- Champiñon</p>
+                      <button onclick="comprar()">Comprar</button>
+                    </div>
                 </section>
                 <section class="nuevas">
-                    <img class="nuevaspizzas" src="imagenes/pizzavegana.jpg" alt="">
+                    <img class="nuevaspizzas" src="imagenes/pizzavegana.jpg" alt="" onclick="openMenu(6)">
                     <p>Para los mas saludables, la pizza verdilla</p>
                     <p>9,99€</p>
+                    <div class="mini-menu" id="menu6">
+                    <h4>Ingredientes:</h4>
+                      <p>- Tomate</p>
+                      <p>- Pepinillo</p>
+                      <button onclick="comprar()">Comprar</button>
+                    </div>
                 </section>
             </article>
 
@@ -79,21 +105,43 @@
                 <hr>
                 <h2> CLASICAS:</h2>
                 <section class="clasicas">
-                    <img class="clasicaspizzas" src="imagenes/pizzakebab.jpg" alt="">
+                    <img class="clasicaspizzas" src="imagenes/pizzakebab.jpg" alt="" onclick="openMenu(7)">
                     <p>Un clasico de los últimos años</p>
                     <p>10,99€</p>
+                    <div class="mini-menu" id="menu7">
+                    <h4>Ingredientes:</h4>
+                      <p>- Carne de kebab</p>
+                      <p>- Cebolla</p>
+                      <p>- Pimientos</p>
+                      <button onclick="comprar()">Comprar</button>
+                    </div>
                 </section>
                 <section class="clasicas">
-                    <img class="clasicaspizzas" src="imagenes/pizzajamonqueso.jpg" alt="">
+                    <img class="clasicaspizzas" src="imagenes/pizzajamonqueso.jpg" alt="" onclick="openMenu(8)">
                     <p>La más clasica que nunca falla</p>
                     <p>8,99€</p>
+                    <div class="mini-menu" id="menu8">
+                    <h4>Ingredientes:</h4>
+                      <p>- Jamón</p>
+                      <p>- Queso</p>
+                      <p>- Tomate</p>
+                      <button onclick="comprar()">Comprar</button>
+                    </div>
                 </section>
                 <section class="clasicas">
-                    <img class="clasicaspizzas" src="imagenes/pizzapiña.jpg" alt="">
+                    <img class="clasicaspizzas" src="imagenes/pizzapiña.jpg" alt="" onclick="openMenu(9)">
                     <p>Un clasico para bastante gente</p>
                     <p>9,99€</p>
+                    <div class="mini-menu" id="menu9">
+                    <h4>Ingredientes:</h4>
+                      <p>- Piña</p>
+                      <p>- Pimiento</p>
+                      <p>- Queso</p>
+                      <button onclick="comprar()">Comprar</button>
+                    </div>
                 </section>
             </article>
+            <a href="index.html"> <img class="imglogo" src="./imagenes/logo.png" alt="imagen del logo"> </a>
         </main>
     </body>
 </html>
