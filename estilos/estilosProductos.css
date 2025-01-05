@@ -123,3 +123,24 @@ header  {
     cursor: pointer;
 }
 
+h3 {
+    text-align: center;
+}
+.testimonios {
+    background-color: chocolate;
+    display: inline-block; 
+    width: 220px; 
+    text-align: center; 
+    padding: 10px; 
+    box-sizing: border-box;
+    justify-content: center;
+    font-weight: bold;
+    position: relative;
+}
+.perfiltestimonio{
+    width: 100px;
+    border-radius: 70px;
+    border: 2px solid black;
+
+}
+
