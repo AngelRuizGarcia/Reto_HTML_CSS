@@ -3,47 +3,145 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Panes</title>
+        <title>PANES - DDANIIS BAKERY</title>
+        <link rel="icon" href="imagenes/logo.png" type="image/x-icon">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="estilos/panes.css">
+        <link rel="stylesheet" href="estilos/estilosProductos.css">
+        <header>
+            <a href="index.html"> <img class="imglogo" src="./imagenes/logo.png" alt="imagen del logo"> </a>
+            <h1> PANES </h1>
+        </header>
     </head>
     <body>
-        <h1>PANES</h1>
-        <hr>
+        <script src="Scripts/scriptMenus.js"></script>
         <main>
+            <hr>
             <article>
-                <h2>PROMOCIONES</h2>
-                <section>
-                    <img src="" alt="">
-                    <p></p>
-                </section>
-                <section>
-                    <img src="" alt="">
-                    <p></p>
-                </section>
-                <section>
-                    <img src="" alt="">
-                    <p></p>
-                </section>
+                <h2> PROMOCIONES: </h2>
+                <section class="promo">
+                    <img class="promoproducto" src="imagenes/logo.png" alt="" onclick="openMenu(1)">
+                    <p>Promo 1</p>
+                    <p>0,00€</p>
+                    <div class="mini-menu" id="menu1">
+                      <h4>Ingredientes:</h4>
+                      <p>-</p>
+                      <p>-</p>
+                      <p>-</p>
+                      <button onclick="comprar()">Comprar</button>
+                    </div>
+                  </section>
+              
+                  <section class="promo">
+                    <img class="promoproducto" src="imagenes/logo.png" alt="" onclick="openMenu(2)">
+                    <p>Promo 2</p>
+                    <p>0,00€</p>
+                    <div class="mini-menu" id="menu2">
+                      <h4>Ingredientes:</h4>
+                      <p>- Queso</p>
+                      <p>- Pepperoni</p>
+                      <p>- Champiñones</p>
+                      <p>- Aceitunas</p>
+                      <button onclick="comprar()">Comprar</button>
+                    </div>
+                  </section>
+              
+                  <section class="promo">
+                    <img class="promoproducto" src="imagenes/logo.png" alt="" onclick="openMenu(3)">
+                    <p>Promo 3</p>
+                    <p>0,00€</p>
+                    <div class="mini-menu" id="menu3">
+                      <h4>Ingredientes:</h4>
+                      <p>-</p>
+                      <p>-</p>
+                      <p>-</p>
+                      <button onclick="comprar()">Comprar</button>
+                    </div>
+                  </section>
 
             </article>
 
             <article>
-                <h2>Nuevos Panes</h2>
-                <section>
-                    <img src="" alt="">
-                    <p></p>
+                <hr>
+                <h2> NUEVOS PANES:</h2>
+                <section class="nuevas">
+                    <img class="nuevosproductos" src="imagenes/logo.png" alt="" onclick="openMenu(4)">
+                    <p>Nuevo Podructo 1</p>
+                    <p>0,00€</p>
+                    <div class="mini-menu" id="menu4">
+                    <h4>Ingredientes:</h4>
+                      <p>-</p>
+                      <p>-</p>
+                      <p>-</p>
+                      <button onclick="comprar()">Comprar</button>
+                    </div>
                 </section>
-                <section>
-                    <img src="" alt="">
-                    <p></p>
+                <section class="nuevas">
+                    <img class="nuevosproductos" src="imagenes/logo.png" alt="" onclick="openMenu(5)">
+                    <p>Nuevo Producto 2</p>
+                    <p>0,00€</p>
+                    <div class="mini-menu" id="menu5">
+                    <h4>Ingredientes:</h4>
+                      <p>-</p>
+                      <p>-</p>
+                      <p>-</p>
+                      <button onclick="comprar()">Comprar</button>
+                    </div>
                 </section>
-                <section>
-                    <img src="" alt="">
-                    <p></p>
+                <section class="nuevas">
+                    <img class="nuevosproductos" src="imagenes/logo.png" alt="" onclick="openMenu(6)">
+                    <p>Nuevo Producto 3</p>
+                    <p>0,00€</p>
+                    <div class="mini-menu" id="menu6">
+                    <h4>Ingredientes:</h4>
+                      <p>-</p>
+                      <p>-</p>
+                      <button onclick="comprar()">Comprar</button>
+                    </div>
                 </section>
             </article>
+
+            <article>
+                <hr>
+                <h2> CLASICAS:</h2>
+                <section class="clasicas">
+                    <img class="productosclasicos" src="imagenes/logo.png" alt="" onclick="openMenu(7)">
+                    <p>Clasica 1</p>
+                    <p>0,00€</p>
+                    <div class="mini-menu" id="menu7">
+                    <h4>Ingredientes:</h4>
+                      <p>-</p>
+                      <p>-</p>
+                      <p>-</p>
+                      <button onclick="comprar()">Comprar</button>
+                    </div>
+                </section>
+                <section class="clasicas">
+                    <img class="productosclasicos" src="imagenes/logo.png" alt="" onclick="openMenu(8)">
+                    <p>Clasica 2</p>
+                    <p>0,00€</p>
+                    <div class="mini-menu" id="menu8">
+                    <h4>Ingredientes:</h4>
+                      <p>-</p>
+                      <p>-</p>
+                      <p>-</p>
+                      <button onclick="comprar()">Comprar</button>
+                    </div>
+                </section>
+                <section class="clasicas">
+                    <img class="productosclasicos" src="imagenes/logo.png" alt="" onclick="openMenu(9)">
+                    <p>Clasica 3</p>
+                    <p>0,00€</p>
+                    <div class="mini-menu" id="menu9">
+                    <h4>Ingredientes:</h4>
+                      <p>-</p>
+                      <p>-</p>
+                      <p>-</p>
+                      <button onclick="comprar()">Comprar</button>
+                    </div>
+                </section>
+            </article>
+            <a href="index.html"> <img class="imglogo" src="./imagenes/logo.png" alt="imagen del logo"> </a>
         </main>
     </body>
 </html>
