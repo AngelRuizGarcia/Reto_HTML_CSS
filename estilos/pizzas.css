@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-
+    margin-left: 770px;
     }
     
 body {
@@ -10,14 +10,43 @@ h2 {
     font-style: oblique;
 }
 .promopizzas{
-    width: 200px;
+    width: 400px;
     border-radius: 20px;
     border: 2px solid black;
 }
 .promo{
     display: inline-block; 
-    width: 300px; 
+    width: 620px; 
     text-align: center; 
-    border: 1px solid #ccc; 
-    padding: 10px; box-sizing: border-box;
+    padding: 10px; 
+    box-sizing: border-box;
+    justify-content: center;
+    font-weight: bold;
 }
+.nuevas{
+    display: inline-block; 
+    width: 620px; 
+    text-align: center; 
+    padding: 10px; 
+    box-sizing: border-box;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.nuevaspizzas{
+    width: 400px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.imglogo{
+    width: 100px;
+    height: 100px;
+
+}
+
+header  {
+    display: flex;
+    align-items: center;
+}
+
+
